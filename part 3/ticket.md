@@ -38,9 +38,11 @@ CMD [ "node", "app.js" ]
 
 ## command
 
+```bash
 docker pull node
 sudo docker build . -t shahab/node-web-app
 sudo docker run -p 3000:3000 --add-host=host.docker.internal:host-gateway -d shahab/node-web-app
+```
 
 ## output
 
